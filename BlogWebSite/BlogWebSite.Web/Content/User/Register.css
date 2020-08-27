@@ -1,0 +1,68 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    /* overflow: hidden;*/ /*上下全屏滑动*/
+}
+
+.container-back {
+    background-image: url('../../../Images/User/BackImage.jpg');
+    background-repeat: repeat-x;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 600px;
+    zoom: 1;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+}
+
+.main-content {
+    width: 40em;
+    height: 26em;
+    font-size: 1.3em;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-notes {
+    width: 17em;
+    height: 26em;
+    background-color: rgb(0,0,1,0.5);
+    float: left;
+}
+
+.note {
+    width: 15em;
+    margin: 0 auto;
+    font-size: 0.9em;
+    line-height: 2;
+    color: #fff;
+}
+
+.main-login {
+    width: 23em;
+    height: 26em;
+    float: right;
+    background-color: #fff;
+}
+
+.login-content {
+    width: 17em;
+    height: 20em;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

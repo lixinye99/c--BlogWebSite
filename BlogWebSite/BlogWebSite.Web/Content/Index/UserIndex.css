@@ -1,0 +1,19 @@
+﻿aside{
+    height:700px;
+}
+.aside_user {
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    border: 1px #E9ECEF solid;
+    border-radius: 125px;
+}
+    .aside_user img {
+        height: 80px;
+        width: 80px;
+        margin-top:40px;
+    }
+    .aside_user span {
+        display: block;
+        margin-top:10px;
+    }
